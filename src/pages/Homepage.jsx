@@ -44,7 +44,7 @@ function Homepage() {
                 </button>
             </div>
 
-            <h3 id='categoriesh3'>Featured Categories</h3>
+            <h3 className='subtitle-homepage'>Featured Categories</h3>
             <div id='featuredCategories' >
                 
                 <div className='categoryDiv'>
@@ -84,7 +84,7 @@ function Homepage() {
                     </Link>
                 </div>
             </div>
-            <h3>Summer Offers - Until 08/14 at 9am</h3>
+            <h3 className='subtitle-homepage'>Summer Offers - Until 08/14 at 9am</h3>
         </div>
     )
 }

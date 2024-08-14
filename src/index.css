@@ -1,6 +1,6 @@
 #Navbar{
     background-color: rgb(223,0,0);
-    height: 70px;
+    5eight: 110px;
     display: flex;
     justify-content: space-between;
     padding: 2% 15%;
@@ -48,7 +48,8 @@
 }
 
 /*--------------HOMEPAGE FEATURED CATEGORIES----------------------*/
-h3{
+
+.subtitle-homepage{
     margin: 5% 0 0 10%;
 }
 #featuredCategories{
@@ -75,13 +76,91 @@ h3{
     margin-top: 15px;
 }
 
-/*----------------CategorysPage---------------*/
+/*----------------CATEGORIES PAGE---------------*/
+
+.index{
+    margin: 1% 0 2% 25%;
+}
+#orderSelect{
+    margin: 0 0 0 75%;
+}
+#allProducts{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 0 0 25%;
+}
 .product-div{
-    width: 250px;
+    width: 270px;
+    border: solid lightgrey 1px;
+    border-radius: 8px;
+    padding: 30px 10px 80px 10px;
+    margin: 10px;
+}
+#prevPrice{
+    text-decoration:line-through;
+}
+#iconPrice{
+    
+    font-weight: 700;
+    color: rgb(223,0,0); 
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.product-image{
+    height: 200px;
+    width: 240px;
+    margin: 0 0 30px 0;
+}
+
+/*-----------------DETAILS PAGE--------------------------*/
+
+#productDetPageDiv{
+    width: 75%;
+    
+    margin: 0% auto;
+} 
+#productDetPageDiv p{
+    margin: 50px 0;
+}
+#productMainDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#mainImg{
+    height: 320px;
+    margin: 30px 0;
+}
+#productPictures{
+    display: flex;
+}
+#productPictures img{
+    width: 130px;
+    margin: 0 0 30px 30px ;
+}
+#priceDiv{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
-.product-div img{
-    height: 230px;
-    width: 260px;
+#price{
+    font-style: italic;
+    font-size: 38px;
+    font-weight: 800;
+    color: rgb(223,0,0); 
+    margin: 0 0 30px 0
+}
+#buyDiv button{
+    height: 50px;
+    width: 600px;
+    margin: 30% 0 0 0;
+}
+#descriptionPicture{
+    margin: 10% 0 0 0;
+}
+.description-text{
+    margin: 15px 0;
 }
